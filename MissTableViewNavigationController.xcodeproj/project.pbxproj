@@ -56,10 +56,10 @@
 			children = (
 				4ADA986322927FA700DD9E26 /* AppDelegate.swift */,
 				4ADA986522927FA700DD9E26 /* ViewController.swift */,
+				4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */,
 				4ADA986A22927FAA00DD9E26 /* Assets.xcassets */,
 				4ADA986C22927FAA00DD9E26 /* LaunchScreen.storyboard */,
 				4ADA986F22927FAA00DD9E26 /* Info.plist */,
-				4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */,
 			);
 			path = MissTableViewNavigationController;
 			sourceTree = "<group>";
