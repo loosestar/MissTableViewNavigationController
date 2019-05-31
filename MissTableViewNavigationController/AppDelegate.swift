@@ -16,6 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let newVC = ExampleTableViewController(style: .grouped)
+        newVC.title = "ViewController Title"
+//        newVC.editButtonItem = UIBarButtonItem(title: "Edit", style: UIBarButtonItem.Style.plain, target: self, action: nil)
+        
+        let navController = UINavigationController(rootViewController: newVC)
+        navController.viewControllers = [newVC]
+        
+//        let leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: nil, action: #selector(ExampleTableViewController.myEditButtonItem))
+//        let rightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: nil, action: #selector(ExampleTableViewController.myEditButtonItem))
+//        let rightButton = UIBarButtonItem(title: "Right", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
