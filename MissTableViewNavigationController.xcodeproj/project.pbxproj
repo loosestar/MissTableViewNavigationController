@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A84649F22A4EBA1008F3F60 /* LSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84649E22A4EBA1008F3F60 /* LSData.swift */; };
 		4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA986322927FA700DD9E26 /* AppDelegate.swift */; };
 		4ADA986622927FA700DD9E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA986522927FA700DD9E26 /* ViewController.swift */; };
 		4ADA986B22927FAA00DD9E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA986A22927FAA00DD9E26 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A84649E22A4EBA1008F3F60 /* LSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSData.swift; sourceTree = "<group>"; };
 		4ADA986022927FA700DD9E26 /* MissTableViewNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissTableViewNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA986322927FA700DD9E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADA986522927FA700DD9E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				4ADA986322927FA700DD9E26 /* AppDelegate.swift */,
 				4ADA986522927FA700DD9E26 /* ViewController.swift */,
+				4A84649E22A4EBA1008F3F60 /* LSData.swift */,
 				4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */,
 				4ADA986A22927FAA00DD9E26 /* Assets.xcassets */,
 				4ADA986C22927FAA00DD9E26 /* LaunchScreen.storyboard */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A84649F22A4EBA1008F3F60 /* LSData.swift in Sources */,
 				4ADA98782292812900DD9E26 /* ExampleTableViewController.swift in Sources */,
 				4ADA986622927FA700DD9E26 /* ViewController.swift in Sources */,
 				4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */,
