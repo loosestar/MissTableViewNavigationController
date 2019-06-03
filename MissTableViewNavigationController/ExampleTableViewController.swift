@@ -12,7 +12,7 @@ import UIKit
 class ExampleTableViewController: UITableViewController {
     private var egTableView: UITableView!
     private var egNavBar: UINavigationBar!
-    private var tableData = [LSData]() // was [String]()
+    private var tableData = [LS_Data]() // was [String]()
     
     override func viewDidLoad() {
         print("hmm")
@@ -23,8 +23,7 @@ class ExampleTableViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         for index in 0...9 {
-            var newData = LSData(id: tableData.count)
-            newData.name = "Data #\(newData.id)"
+            let newData = LS_Data(id: tableData.count, name: "Data #\(index)")
             tableData.insert(newData, at: index)
         }
         
@@ -100,8 +99,8 @@ class ExampleTableViewController: UITableViewController {
             
             if let userInput = theTextField!.text {
                 print("\"\(userInput)\" entered")
-                var newData = LSData(id: self.tableData.count)
-                newData.name = userInput
+                let newData = LS_Data(id: self.tableData.count, name: userInput)
+//                newData.name = userInput
                 self.tableData.append(newData)
                 self.tableView.reloadData()
             } else {

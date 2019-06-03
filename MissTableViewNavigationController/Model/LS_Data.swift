@@ -9,13 +9,14 @@
 
 import Foundation
 
-class LSData {
-    var id: Int!
+struct LS_Data {
+    var id: Int
     var name: String
+}
     
-    
-    init(id: Int) {
-        self.id = id
-        self.name = ""
+extension LS_Data {
+    var description: String {
+        return "id: \(id)" +
+               "name: \(name)"
     }
 }
