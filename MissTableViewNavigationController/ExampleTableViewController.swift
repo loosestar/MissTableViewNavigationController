@@ -15,8 +15,8 @@ class ExampleTableViewController: UITableViewController {
     override func viewDidLoad() {
         print("hmm")
         
-        let leftButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.newButtonItemTapped))
-        let rightButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: nil, action: #selector(ExampleTableViewController.editButtonItemTapped))
+        let leftButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
+        let rightButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: nil, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
         self.navigationItem.leftBarButtonItem = leftButton
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         
@@ -87,7 +87,7 @@ class ExampleTableViewController: UITableViewController {
         }
     }
  
-    @objc func newButtonItemTapped(sender: UIBarButtonItem) {
+    @objc func handleNewButtonItemTapped(sender: UIBarButtonItem) {
         print("Add add add!")
         
         var theTextField: UITextField?
@@ -118,7 +118,7 @@ class ExampleTableViewController: UITableViewController {
         })
     }
     
-    @objc func editButtonItemTapped(sender: UIBarButtonItem) {
+    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
         print("Edit edit edit!")
         
         self.setEditing(true, animated: true)
