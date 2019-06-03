@@ -55,7 +55,7 @@ class ExampleTableViewController: UITableViewController {
     }
     
     override func setEditing(_ editing: Bool, animated: Bool) {
-        // disable the add button while editing text
+        // disable the add button while editing text, enable it when not editing
         self.navigationItem.leftBarButtonItem?.isEnabled = !editing
         super.setEditing(editing, animated: animated)
     }
