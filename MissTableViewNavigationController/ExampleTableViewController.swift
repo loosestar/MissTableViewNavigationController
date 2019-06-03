@@ -10,8 +10,6 @@ import Foundation
 import UIKit
 
 class ExampleTableViewController: UITableViewController {
-    private var egTableView: UITableView!
-    private var egNavBar: UINavigationBar!
     private var tableData = [LS_Data]() // was [String]()
     
     override func viewDidLoad() {
@@ -58,7 +56,6 @@ class ExampleTableViewController: UITableViewController {
     
     override func setEditing(_ editing: Bool, animated: Bool) {
         super.setEditing(editing, animated: animated)
-//        egTableView.setEditing(editing, animated: animated)
     }
     
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -124,14 +121,4 @@ class ExampleTableViewController: UITableViewController {
         
         self.setEditing(true, animated: true)
     }
-    
-//    func showEditButton(sender: UIBarButtonItem) {
-//        if(self.egTableView.isEditing == true) {
-//            self.egTableView.isEditing = false
-//            self.navigationItem.rightBarButtonItem?.title = "Done"
-//        } else if(self.egTableView.isEditing != true) {
-//            self.egTableView.isEditing = true
-//            self.navigationItem.rightBarButtonItem?.title = "Edit"
-//        }
-//    }
 }
