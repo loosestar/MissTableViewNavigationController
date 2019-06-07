@@ -86,6 +86,11 @@ class ExampleTableViewController: UITableViewController {
             }
         }
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        print("selected row \(indexPath.row) with content: \(String(describing: cell?.textLabel?.text))")
+    }
  
     @objc func handleNewButtonItemTapped(sender: UIBarButtonItem) {
         print("Add add add!")

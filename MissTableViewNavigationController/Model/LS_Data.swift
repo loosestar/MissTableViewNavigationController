@@ -13,10 +13,11 @@ struct LS_Data {
     var id: Int
     var name: String
 }
-    
-extension LS_Data {
+
+// provide a description of the class for the console, adhering to Apple's recommendation to provide String(describing:) and print(_:)
+// with useful information
+extension LS_Data: CustomStringConvertible {
     var description: String {
-        return "id: \(id)" +
-               "name: \(name)"
+        return "id: \(id)" + "name: \(name)"
     }
 }
