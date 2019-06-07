@@ -16,12 +16,12 @@ class ExampleTableViewController: UITableViewController {
         print("hmm")
         
         let leftButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
-        let rightButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: nil, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
+        let rightButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
         self.navigationItem.leftBarButtonItem = leftButton
-        self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = rightButton //self.editButtonItem
         
         for index in 0...9 {
-            let newData = LS_Data(id: tableData.count, name: "Data #\(index)")
+            let newData = LS_Data(name: "Data #\(index)")
             tableData.insert(newData, at: index)
         }
         
@@ -48,15 +48,15 @@ class ExampleTableViewController: UITableViewController {
         return cell
     }
     
-    var rightBarButtonItem: UIBarButtonItem {
-        let barButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: nil)
-        barButtonItem.tintColor = UIColor.blue
-        return barButtonItem
-    }
+//    var rightBarButtonItem: UIBarButtonItem {
+//        let barButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: nil)
+//        barButtonItem.tintColor = UIColor.blue
+//        return barButtonItem
+//    }
     
     override func setEditing(_ editing: Bool, animated: Bool) {
         // disable the add button while editing text, enable it when not editing
-        self.navigationItem.leftBarButtonItem?.isEnabled = !editing
+        self.navigationItem.leftBarButtonItem?.isEnabled = !editing // toggle the editing value each time the edit button is touched
         super.setEditing(editing, animated: animated)
     }
     
@@ -103,7 +103,7 @@ class ExampleTableViewController: UITableViewController {
             
             if let userInput = theTextField!.text {
                 print("\"\(userInput)\" entered")
-                let newData = LS_Data(id: self.tableData.count, name: userInput)
+                let newData = LS_Data(name: userInput)
 //                newData.name = userInput
                 self.tableData.append(newData)
                 self.tableView.reloadData()
@@ -126,6 +126,10 @@ class ExampleTableViewController: UITableViewController {
     @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
         print("Edit edit edit!")
         
-        self.setEditing(true, animated: true)
+        if !tableView.isEditing {
+            self.setEditing(true, animated: true)
+        } else {
+            self.setEditing(false, animated: true)
+        }
     }
 }

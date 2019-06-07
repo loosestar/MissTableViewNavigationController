@@ -10,8 +10,13 @@
 import Foundation
 
 struct LS_Data {
-    var id: Int
+    var id: UUID
     var name: String
+    
+    init(id: UUID = UUID(), name: String) {
+        self.id = id
+        self.name = name
+    }
 }
 
 // provide a description of the class for the console, adhering to Apple's recommendation to provide String(describing:) and print(_:)
