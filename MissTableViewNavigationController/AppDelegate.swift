@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let newVC = ExampleTableViewController(style: .grouped)
-        newVC.title = "ViewController Title"
+//        newVC.title = "ViewController Title"
 //        newVC.editButtonItem = UIBarButtonItem(title: "Edit", style: UIBarButtonItem.Style.plain, target: self, action: nil)
         
         let navController = UINavigationController(rootViewController: newVC)

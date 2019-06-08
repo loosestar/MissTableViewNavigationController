@@ -10,15 +10,31 @@ import Foundation
 import UIKit
 
 class ExampleTableViewController: UITableViewController {
-    private var tableData = [LS_Data]() // was [String]()
+    private var tableData = [LS_Data]()
+    
+    // fileprivate vars must be optional if they need to be initialised (?)
+    fileprivate var _leftButton: UIBarButtonItem?
+    fileprivate var _rightButton: UIBarButtonItem?
+    
+    override init(style: UITableView.Style) {
+        super.init(style: .grouped)
+        self._leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
+        self._rightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
     
     override func viewDidLoad() {
         print("hmm")
         
-        let leftButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
-        let rightButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
-        self.navigationItem.leftBarButtonItem = leftButton
-        self.navigationItem.rightBarButtonItem = rightButton //self.editButtonItem
+//        self._leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
+//        self._rightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
+
+        self.title = "ViewController Title"
+        self.navigationItem.leftBarButtonItem = self._leftButton
+        self.navigationItem.rightBarButtonItem = self._rightButton
         
         for index in 0...9 {
             let newData = LS_Data(name: "Data #\(index)")
