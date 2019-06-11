@@ -13,14 +13,15 @@ class ExampleTableViewController: UITableViewController {
     private var tableData = [LS_Data]()
     
     // fileprivate vars must be optional if they need to be initialised (?)
-    fileprivate var _leftButton: UIBarButtonItem?
-    fileprivate var _rightButton: UIBarButtonItem?
-    
+    fileprivate lazy var _leftButton: UIBarButtonItem = {
+        return UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
+    }()
+    fileprivate lazy var _rightButton: UIBarButtonItem = {
+        return self.editButtonItem
+    }()
+        
     override init(style: UITableView.Style) {
         super.init(style: .grouped)
-        
-        self._leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
-        self._rightButton = self.editButtonItem    //UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -131,7 +132,7 @@ class ExampleTableViewController: UITableViewController {
     
 //    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
 //        print("Edit edit edit!")
-//        
+//
 //        if !tableView.isEditing {
 //            self.setEditing(true, animated: true)
 //        } else {
