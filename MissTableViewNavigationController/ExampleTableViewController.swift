@@ -18,8 +18,9 @@ class ExampleTableViewController: UITableViewController {
     
     override init(style: UITableView.Style) {
         super.init(style: .grouped)
+        
         self._leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
-        self._rightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
+        self._rightButton = self.editButtonItem    //UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
     }
     
     required init?(coder aDecoder: NSCoder) {
