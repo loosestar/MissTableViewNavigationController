@@ -12,11 +12,11 @@ import UIKit
 class ExampleTableViewController: UITableViewController {
     private var tableData = [LS_Data]()
     
-    // fileprivate vars must be optional if they need to be initialised (?)
-    fileprivate lazy var _leftButton: UIBarButtonItem = {
+    // vars must be lazy properties if they need to be initialised before self exists. These closures DO NOT retain the captured self
+    fileprivate lazy var _newButton: UIBarButtonItem = {
         return UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
     }()
-    fileprivate lazy var _rightButton: UIBarButtonItem = {
+    fileprivate lazy var _editButton: UIBarButtonItem = {
         return self.editButtonItem
     }()
         
@@ -32,8 +32,8 @@ class ExampleTableViewController: UITableViewController {
         print("hmm")
         
         self.title = "ViewController Title"
-        self.navigationItem.leftBarButtonItem = self._leftButton
-        self.navigationItem.rightBarButtonItem = self._rightButton
+        self.navigationItem.leftBarButtonItem = self._newButton
+        self.navigationItem.rightBarButtonItem = self._editButton
         
         for index in 0...9 {
             let newData = LS_Data(name: "Data #\(index)")
