@@ -30,9 +30,6 @@ class ExampleTableViewController: UITableViewController {
     override func viewDidLoad() {
         print("hmm")
         
-//        self._leftButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
-//        self._rightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.edit, target: self, action: #selector(ExampleTableViewController.handleEditButtonItemTapped))
-
         self.title = "ViewController Title"
         self.navigationItem.leftBarButtonItem = self._leftButton
         self.navigationItem.rightBarButtonItem = self._rightButton
@@ -65,12 +62,6 @@ class ExampleTableViewController: UITableViewController {
         return cell
     }
     
-//    var rightBarButtonItem: UIBarButtonItem {
-//        let barButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: nil)
-//        barButtonItem.tintColor = UIColor.blue
-//        return barButtonItem
-//    }
-    
     override func setEditing(_ editing: Bool, animated: Bool) {
         // disable the add button while editing text, enable it when not editing
         self.navigationItem.leftBarButtonItem?.isEnabled = !editing // toggle the editing value each time the edit button is touched
@@ -83,8 +74,6 @@ class ExampleTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // TODO: remove the object on this row here
-            // DEBUG
             if (self.tableData.count > 0) {
                 print("(indexPath: \(indexPath.row))")
                 print("num sections in tableView: \(tableView.numberOfSections)")
@@ -140,13 +129,13 @@ class ExampleTableViewController: UITableViewController {
         })
     }
     
-    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
-        print("Edit edit edit!")
-        
-        if !tableView.isEditing {
-            self.setEditing(true, animated: true)
-        } else {
-            self.setEditing(false, animated: true)
-        }
-    }
+//    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
+//        print("Edit edit edit!")
+//        
+//        if !tableView.isEditing {
+//            self.setEditing(true, animated: true)
+//        } else {
+//            self.setEditing(false, animated: true)
+//        }
+//    }
 }
