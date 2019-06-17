@@ -13,27 +13,19 @@ class ExampleTableViewController: UITableViewController {
     private var tableData = [LS_Data]()
     
     // vars must be lazy properties if they need to be initialised before self exists. These closures DO NOT retain the captured self
-    fileprivate lazy var _newButton: UIBarButtonItem = {
-        return UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(ExampleTableViewController.handleNewButtonItemTapped))
+    fileprivate lazy var _addButtonItem: UIBarButtonItem = {
+        return UIBarButtonItem(barButtonSystemItem: .add,
+                               target: self,
+                               action: #selector(handleAddButtonItemTapped))
     }()
-    fileprivate lazy var _editButton: UIBarButtonItem = {
-        return self.editButtonItem
-    }()
-        
-    override init(style: UITableView.Style) {
-        super.init(style: .grouped)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
+    fileprivate lazy var _editButtonItem = self.editButtonItem
     
     override func viewDidLoad() {
         print("hmm")
         
         self.title = "ViewController Title"
-        self.navigationItem.leftBarButtonItem = self._newButton
-        self.navigationItem.rightBarButtonItem = self._editButton
+        self.navigationItem.leftBarButtonItem = self._addButtonItem
+        self.navigationItem.rightBarButtonItem = self._editButtonItem
         
         for index in 0...9 {
             let newData = LS_Data(name: "Data #\(index)")
@@ -65,7 +57,7 @@ class ExampleTableViewController: UITableViewController {
     
     override func setEditing(_ editing: Bool, animated: Bool) {
         // disable the add button while editing text, enable it when not editing
-        self.navigationItem.leftBarButtonItem?.isEnabled = !editing // toggle the editing value each time the edit button is touched
+        _addButtonItem.isEnabled = !editing    // toggle the editing value each time the edit button is touched
         super.setEditing(editing, animated: animated)
     }
     
@@ -80,7 +72,7 @@ class ExampleTableViewController: UITableViewController {
                 print("num sections in tableView: \(tableView.numberOfSections)")
                 print("this section")
                 print("tableData has \(self.tableData.count) elements")
-                self.tableData.remove(at: indexPath.row) //(self.tableData[indexPath.row])
+                self.tableData.remove(at: indexPath.row)
                 print("now tableData has \(self.tableData.count) elements")
                 print("numRows in section: \(self.tableView.numberOfRows(inSection: tableView.numberOfSections - 1))")
                 self.tableView.beginUpdates()
@@ -99,7 +91,7 @@ class ExampleTableViewController: UITableViewController {
         print("selected row \(indexPath.row) with content: \(String(describing: cell?.textLabel?.text))")
     }
  
-    @objc func handleNewButtonItemTapped(sender: UIBarButtonItem) {
+    @objc func handleAddButtonItemTapped(sender: UIBarButtonItem) {
         print("Add add add!")
         
         var theTextField: UITextField?
@@ -111,7 +103,6 @@ class ExampleTableViewController: UITableViewController {
             if let userInput = theTextField!.text {
                 print("\"\(userInput)\" entered")
                 let newData = LS_Data(name: userInput)
-//                newData.name = userInput
                 self.tableData.append(newData)
                 self.tableView.reloadData()
             } else {
@@ -129,14 +120,4 @@ class ExampleTableViewController: UITableViewController {
 //            tableData.append(theTextField!.text(String))"
         })
     }
-    
-//    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
-//        print("Edit edit edit!")
-//
-//        if !tableView.isEditing {
-//            self.setEditing(true, animated: true)
-//        } else {
-//            self.setEditing(false, animated: true)
-//        }
-//    }
 }
