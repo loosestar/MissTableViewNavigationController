@@ -9,8 +9,10 @@
 import Foundation
 import UIKit
 
-class ExampleTableViewController: UITableViewController {
+class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     private var tableData = [LS_Data]()
+    
+    var detailView: LS_DataDetailView!
     
     // vars must be lazy properties if they need to be initialised before self exists. These closures DO NOT retain the captured self
     fileprivate lazy var _addButtonItem: UIBarButtonItem = {
@@ -34,6 +36,8 @@ class ExampleTableViewController: UITableViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+//        detailView.delegate = self as! LS_BackButtonDelegate// as? LS_DataDetailDelegate
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -89,6 +93,8 @@ class ExampleTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
         print("selected row \(indexPath.row) with content: \(String(describing: cell?.textLabel?.text))")
+        
+        onCellTouched(sender: cell!)
     }
  
     @objc func handleAddButtonItemTapped(sender: UIBarButtonItem) {
@@ -119,5 +125,12 @@ class ExampleTableViewController: UITableViewController {
 //            print("Entered \(theTextField?.text! ?? "null")")
 //            tableData.append(theTextField!.text(String))"
         })
+    }
+    
+    func onCellTouched(sender: UITableViewCell) {
+        print("Cell touched, delegating")
+        let destinationDetailViewController = LS_DataDetailViewController()
+        
+        navigationController?.pushViewController(destinationDetailViewController, animated: false)
     }
 }
