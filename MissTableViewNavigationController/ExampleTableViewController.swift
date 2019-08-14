@@ -11,8 +11,13 @@ import UIKit
 
 class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     private var tableData = [LS_Data]()
+    var modelController: LS_DataController!
     
+    var editView: LS_EditDetailView!
     var detailView: LS_DataDetailView!
+    
+    // outlet to pass LS_Data between ViewControllers
+//    @IBOutlet weak var data: LS_Data!
     
     // vars must be lazy properties if they need to be initialised before self exists. These closures DO NOT retain the captured self
     fileprivate lazy var _addButtonItem: UIBarButtonItem = {
@@ -25,20 +30,73 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     override func viewDidLoad() {
         print("hmm")
         
+        // load data
+        self.loadData()
+        
         self.title = "ViewController Title"
         self.navigationItem.leftBarButtonItem = self._addButtonItem
         self.navigationItem.rightBarButtonItem = self._editButtonItem
         
-        for index in 0...9 {
-            let newData = LS_Data(name: "Data #\(index)")
-            tableData.insert(newData, at: index)
-        }
+//        if tableData.count < 1 {
+//            for index in 0...tableData.count {
+//                let newData = LS_Data(name: "Data #\(index)")
+//                tableData.insert(newData, at: index)
+//            }
+//        }
         
-        tableView.delegate = self
-        tableView.dataSource = self
+        print("initial frame size: \(self.view.frame.size)")
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
         
 //        detailView.delegate = self as! LS_BackButtonDelegate// as? LS_DataDetailDelegate
     }
+    
+    func loadData() {
+        if modelController == nil {
+            print("WARNING: modelController nil")
+            print("tableData has \(tableData.count) elements")
+            modelController = LS_DataController()
+            
+            if tableData.count > 0 {
+                modelController.dataStructure = tableData
+                print("modelController.dataStructure now has \(modelController.dataStructure.count) elements")
+            } else {
+                // new dummy header as no tableData exists
+                tableData.append(LS_Data(name: "First!"))
+                modelController.dataStructure = tableData
+            }
+        } else {
+//            modelController.dataStructure = tableData
+            
+            tableData = modelController.dataStructure
+        }
+//        tableView.reloadData()
+    }
+    
+    func getData() -> [LS_Data] {
+        return (tableData)
+    }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        print("appear hmm")
+//
+//        self.title = "ViewController Title"
+//        self.navigationItem.leftBarButtonItem = self._addButtonItem
+//        self.navigationItem.rightBarButtonItem = self._editButtonItem
+//
+////        for index in 0...tableData.count {
+////            let newData = LS_Data(name: "Data #\(index)")
+////            tableData.insert(newData, at: index)
+////        }
+//
+//        self.tableView.delegate = self
+//        self.tableView.dataSource = self
+//
+//        //        detailView.delegate = self as! LS_BackButtonDelegate// as? LS_DataDetailDelegate
+//    }
+
+    
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -94,7 +152,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
         let cell = tableView.cellForRow(at: indexPath)
         print("selected row \(indexPath.row) with content: \(String(describing: cell?.textLabel?.text))")
         
-        onCellTouched(sender: cell!)
+        onCellTouched(sender: cell!, atRow: indexPath.row)
     }
  
     @objc func handleAddButtonItemTapped(sender: UIBarButtonItem) {
@@ -109,8 +167,17 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
             if let userInput = theTextField!.text {
                 print("\"\(userInput)\" entered")
                 let newData = LS_Data(name: userInput)
+//                editView = LS_EditDetailViewController
                 self.tableData.append(newData)
+//                self.loadData()
                 self.tableView.reloadData()
+                // TODO: Should be EditDetailViewController
+                let destinationEditDetailViewController = LS_EditDetailViewController()
+                destinationEditDetailViewController.allData = self.tableData
+                destinationEditDetailViewController.editData = newData
+                destinationEditDetailViewController.modelController = self.modelController
+//                self.tableView.reloadData()
+                self.navigationController?.pushViewController(destinationEditDetailViewController, animated: false)
             } else {
                 print("error entering or reading text")
             }
@@ -122,15 +189,47 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
         })
         
         self.present(alertController, animated: true, completion: {
-//            print("Entered \(theTextField?.text! ?? "null")")
-//            tableData.append(theTextField!.text(String))"
+//            print("New Item touched, creating a new item with entered name \(theTextField!.text)")
+//            navigationController?.pushViewController(descriptionDetailViewController, animated: false)
         })
     }
     
-    func onCellTouched(sender: UITableViewCell) {
-        print("Cell touched, delegating")
+    func updateData(data: LS_Data) {
+        print("data.id: \(data.id)")
+        if(tableData.contains(where: { $0.id == data.id }) ) {
+            print("should update!")
+            print("tableData.count: \(tableData.count)")
+//            self.loadData()
+        } else {
+//            print("tableData[0].id: \(tableData[0].id)")
+            print("should append -- for id: \(data.id)")
+            tableData.append(data)
+            print("tableData.count: \(tableData.count)")
+//            self.loadData()
+        }
+    }
+    
+    func onCellTouched(sender: UITableViewCell, atRow: Int) {
+        print("Cell touched at row (\(atRow)), delegating for data")
         let destinationDetailViewController = LS_DataDetailViewController()
+        destinationDetailViewController.view.frame = self.view.frame
+        
+        self.loadData()
+        destinationDetailViewController.allData = tableData
+        destinationDetailViewController.dataIndex = atRow
         
         navigationController?.pushViewController(destinationDetailViewController, animated: false)
+    }
+    
+    func onCellTouched(sender: UITableViewCell) {
+        print("cell touched, ExampleTableViewController")
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let editViewController = segue.destination as? LS_EditDetailViewController
+        let index = tableView.indexPathForSelectedRow?.row as! Int
+        
+//        editViewController!.editData = tableData[index]
+        editViewController!.modelController = modelController
     }
 }

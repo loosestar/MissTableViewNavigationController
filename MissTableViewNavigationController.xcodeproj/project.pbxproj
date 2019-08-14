@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A235E6422E59A1A00C14A76 /* LS_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A235E6322E59A1A00C14A76 /* LS_TableViewCell.swift */; };
 		4A25124022DEFEBC0033DB42 /* LS_DataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25123F22DEFEBC0033DB42 /* LS_DataDetailViewController.swift */; };
 		4A25124222DF00320033DB42 /* LS_DataDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25124122DF00320033DB42 /* LS_DataDetailView.swift */; };
 		4A25124422DF03D20033DB42 /* ExampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25124322DF03D20033DB42 /* ExampleTableView.swift */; };
+		4A29B3F322F165F000D9CB34 /* LS_DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29B3F222F165F000D9CB34 /* LS_DataController.swift */; };
+		4A58890922E41B690079B86F /* LS_EditDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58890822E41B690079B86F /* LS_EditDetailViewController.swift */; };
+		4A58890B22E41BA80079B86F /* LS_EditDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58890A22E41BA80079B86F /* LS_EditDetailView.swift */; };
 		4A84649F22A4EBA1008F3F60 /* LS_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84649E22A4EBA1008F3F60 /* LS_Data.swift */; };
 		4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA986322927FA700DD9E26 /* AppDelegate.swift */; };
 		4ADA986622927FA700DD9E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA986522927FA700DD9E26 /* ViewController.swift */; };
@@ -19,9 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A235E6322E59A1A00C14A76 /* LS_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_TableViewCell.swift; sourceTree = "<group>"; };
 		4A25123F22DEFEBC0033DB42 /* LS_DataDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataDetailViewController.swift; sourceTree = "<group>"; };
 		4A25124122DF00320033DB42 /* LS_DataDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataDetailView.swift; sourceTree = "<group>"; };
 		4A25124322DF03D20033DB42 /* ExampleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableView.swift; sourceTree = "<group>"; };
+		4A29B3F222F165F000D9CB34 /* LS_DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataController.swift; sourceTree = "<group>"; };
+		4A58890822E41B690079B86F /* LS_EditDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_EditDetailViewController.swift; sourceTree = "<group>"; };
+		4A58890A22E41BA80079B86F /* LS_EditDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_EditDetailView.swift; sourceTree = "<group>"; };
 		4A84649E22A4EBA1008F3F60 /* LS_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LS_Data.swift; sourceTree = "<group>"; };
 		4ADA986022927FA700DD9E26 /* MissTableViewNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissTableViewNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA986322927FA700DD9E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4A84649E22A4EBA1008F3F60 /* LS_Data.swift */,
+				4A29B3F222F165F000D9CB34 /* LS_DataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -75,6 +84,9 @@
 				4ADA986522927FA700DD9E26 /* ViewController.swift */,
 				4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */,
 				4A25124322DF03D20033DB42 /* ExampleTableView.swift */,
+				4A235E6322E59A1A00C14A76 /* LS_TableViewCell.swift */,
+				4A58890822E41B690079B86F /* LS_EditDetailViewController.swift */,
+				4A58890A22E41BA80079B86F /* LS_EditDetailView.swift */,
 				4A25123F22DEFEBC0033DB42 /* LS_DataDetailViewController.swift */,
 				4A25124122DF00320033DB42 /* LS_DataDetailView.swift */,
 				4ADA986A22927FAA00DD9E26 /* Assets.xcassets */,
@@ -156,10 +168,14 @@
 			files = (
 				4A25124422DF03D20033DB42 /* ExampleTableView.swift in Sources */,
 				4A25124222DF00320033DB42 /* LS_DataDetailView.swift in Sources */,
+				4A29B3F322F165F000D9CB34 /* LS_DataController.swift in Sources */,
 				4A84649F22A4EBA1008F3F60 /* LS_Data.swift in Sources */,
+				4A58890B22E41BA80079B86F /* LS_EditDetailView.swift in Sources */,
 				4A25124022DEFEBC0033DB42 /* LS_DataDetailViewController.swift in Sources */,
 				4ADA98782292812900DD9E26 /* ExampleTableViewController.swift in Sources */,
 				4ADA986622927FA700DD9E26 /* ViewController.swift in Sources */,
+				4A58890922E41B690079B86F /* LS_EditDetailViewController.swift in Sources */,
+				4A235E6422E59A1A00C14A76 /* LS_TableViewCell.swift in Sources */,
 				4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
