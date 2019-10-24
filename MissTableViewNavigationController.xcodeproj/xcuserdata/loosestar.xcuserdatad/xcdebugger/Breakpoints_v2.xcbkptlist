@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "DAB99295-6437-4B9A-ADDE-02351E0C72F5"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D67990C2-5E3A-4AFB-A95A-8E7A5F456357"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ViewController.swift"
-            timestampString = "586082832.85242"
+            timestampString = "589786985.406922"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -22,29 +24,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4CAF6973-B8E4-4544-B236-E5663F946D94"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/AppDelegate.swift"
-            timestampString = "586079870.317066"
+            timestampString = "591002999.590847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31">
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "86E2365B-D39F-43CC-87C3-5999678ED3F7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.071171"
+            timestampString = "590921191.414206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -52,15 +58,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "B423086D-3943-4C4A-9C43-DA08265D5B42"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.072192"
+            timestampString = "590921191.4142801"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -68,46 +75,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DD5488F0-9CCF-4E81-A0AC-8A61E3B66DBC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.072867"
+            timestampString = "590921191.4143389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
             landmarkName = "handleAddButtonItemTapped(sender:)"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "DD5488F0-9CCF-4E81-A0AC-8A61E3B66DBC - 4da1f25135bbc68c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.ExampleTableViewController.handleAddButtonItemTapped(sender: __C.UIBarButtonItem) -&gt; ()"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/ExampleTableViewController.swift"
-                  timestampString = "587389088.564648"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/ExampleTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "191"
-                  endingLineNumber = "191"
-                  offsetFromSymbolStart = "878">
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "893">
                </Location>
                <Location
+                  uuid = "DD5488F0-9CCF-4E81-A0AC-8A61E3B66DBC - fa8f028ff63e9f18"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #3 () -&gt; () in MissTableViewNavigationController.ExampleTableViewController.handleAddButtonItemTapped(sender: __C.UIBarButtonItem) -&gt; ()"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/ExampleTableViewController.swift"
-                  timestampString = "587389088.566118"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/ExampleTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "194"
-                  endingLineNumber = "194"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
                   offsetFromSymbolStart = "4">
                </Location>
             </Locations>
@@ -116,27 +124,29 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F437B7F5-8BF9-46A2-BCA0-9CE679220494"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.0735281"
+            timestampString = "590921191.414394"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "ExampleTableViewController"
-            landmarkType = "3">
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DD414FC6-78FC-4AC9-AFC0-98AFE7CF13A1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.074181"
+            timestampString = "590921191.4144469"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -148,15 +158,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "194871B8-294F-449D-A107-F5A84D51C205"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.074887"
+            timestampString = "590921191.4145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "onCellTouched(sender:atRow:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -164,11 +175,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "04532C48-A08D-43F4-931A-E38B62A09215"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.815213"
+            timestampString = "589879651.571548"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -180,15 +192,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A312B4C6-032C-421E-A5CC-E24E0BAD0D0B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.0755841"
+            timestampString = "590921191.414577"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "handleAddButtonItemTapped(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -196,15 +209,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "AF803751-7FED-4D7B-BCAB-5F43915177FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.07623"
+            timestampString = "590921191.414632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "handleAddButtonItemTapped(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -212,6 +226,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A5541B21-2115-4C8B-AAF6-79593D04989D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -225,44 +240,44 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "A5541B21-2115-4C8B-AAF6-79593D04989D - c0ae648730df49f4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.5869271"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
                   endingLineNumber = "42"
-                  offsetFromSymbolStart = "114">
+                  offsetFromSymbolStart = "126">
                </Location>
                <Location
+                  uuid = "A5541B21-2115-4C8B-AAF6-79593D04989D - 84f91ac560e5f4f8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.588448"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
                   endingLineNumber = "42"
-                  offsetFromSymbolStart = "128">
+                  offsetFromSymbolStart = "160">
                </Location>
                <Location
+                  uuid = "A5541B21-2115-4C8B-AAF6-79593D04989D - d20768d5dc7bc262"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.5899971"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -270,14 +285,14 @@
                   offsetFromSymbolStart = "18">
                </Location>
                <Location
+                  uuid = "A5541B21-2115-4C8B-AAF6-79593D04989D - ee864874cd693ea3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.5915461"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
@@ -290,6 +305,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -303,94 +319,94 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - 64ab76a2b7e47443"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.init(frame: __C.CGRect, style: __C.UITableViewStyle) -&gt; MissTableViewNavigationController.LS_EditDetailView"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.5967211"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
                   endingLineNumber = "54"
-                  offsetFromSymbolStart = "226">
+                  offsetFromSymbolStart = "224">
                </Location>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - f06ba301f9ec6d26"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_EditDetailView&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.598151"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
                   endingLineNumber = "54"
-                  offsetFromSymbolStart = "177">
+                  offsetFromSymbolStart = "156">
                </Location>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - c4a9ea5cde37a785"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.cellDelegate.getter : Swift.Optional&lt;MissTableViewNavigationController.LS_CellDelegate&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.599582"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
                   endingLineNumber = "54"
-                  offsetFromSymbolStart = "123">
+                  offsetFromSymbolStart = "135">
                </Location>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - 78ebe3cdbb4ee389"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.cellDelegate.setter : Swift.Optional&lt;MissTableViewNavigationController.LS_CellDelegate&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.601017"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
                   endingLineNumber = "54"
-                  offsetFromSymbolStart = "144">
+                  offsetFromSymbolStart = "151">
                </Location>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - d8e70cc88d30067a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.cellDelegate.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_CellDelegate&gt;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.602412"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "69">
+                  offsetFromSymbolStart = "67">
                </Location>
                <Location
+                  uuid = "315B8EFE-BE1B-4939-9937-3D395EB78CF9 - 8f41d796985579b7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MissTableViewNavigationController.LS_EditDetailView.cellDelegate.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_CellDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "MissTableViewNavigationController"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationController/MissTableViewNavigationController/MissTableViewNavigationController/LS_EditDetailView.swift"
-                  timestampString = "587389088.603909"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_EditDetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
                   endingLineNumber = "54"
-                  offsetFromSymbolStart = "91">
+                  offsetFromSymbolStart = "95">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -398,11 +414,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "5438A82E-9DAA-4D9A-93B8-677DF344B80E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.8168941"
+            timestampString = "589879651.5722409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -414,15 +431,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "0775688B-2949-4604-9250-8BE155ADA444"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.077019"
+            timestampString = "590921191.414729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "onCellTouched(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -430,15 +448,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D65B89D3-0E08-4212-B1A3-ED812E17FCCE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.0776809"
+            timestampString = "590921191.414784"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
             landmarkName = "ExampleTableViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -446,15 +465,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F65EBD13-386B-4634-B7DF-AF3B5B6EA0E5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.078328"
+            timestampString = "590921191.414835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -462,11 +482,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "40308A39-F057-4D21-964A-D96443042BF0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.819105"
+            timestampString = "589879651.573274"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -478,11 +499,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "0FBF80B4-133E-45B5-A54C-BC20F143BAFF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.81941"
+            timestampString = "589879651.573326"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -494,6 +516,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "60EE1534-2A74-4653-86C1-1ADD3B6C7870"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -510,6 +533,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C3F3CB5A-BED6-48A8-9683-BAA23971C9E2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -526,6 +550,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "513BB8C9-86F2-4CD9-8483-54F4C1B9E015"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -542,11 +567,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "381091B8-3E75-4AE0-AA00-7B0A28F477E7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.8198431"
+            timestampString = "589879651.573414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -558,15 +584,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "402DEA4E-CA38-45C9-AB8F-E94C21419A34"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.079146"
+            timestampString = "590921191.4149669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
             landmarkName = "onCellTouched(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -574,11 +601,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "35CBE21B-F820-4890-B124-549618347EA6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.820662"
+            timestampString = "589879651.573754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
@@ -590,11 +618,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A63201EE-B8B8-43BB-B60B-A6344D61C726"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.821017"
+            timestampString = "589879651.5737979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -606,11 +635,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "961E4C84-A056-4671-B317-D396654AD93D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.8213151"
+            timestampString = "589879651.5738389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -622,11 +652,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "BF19F725-2A07-4500-A5EF-4BAB130D42A6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.821601"
+            timestampString = "589879651.57388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
@@ -638,11 +669,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "3CECE09C-CBDC-4C38-9D38-62DF73E3DF98"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.821892"
+            timestampString = "589879651.573921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
@@ -654,11 +686,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "773A62F2-758D-413C-98E1-98836BBEC7B7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.079983"
+            timestampString = "590921191.415086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -670,11 +703,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A2E54789-5E59-471C-AE4C-9E1FA753FD6F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.080631"
+            timestampString = "590921191.415161"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -686,11 +720,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "9D1C678D-1F57-43AA-AEA3-E644FEB4B14A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.0812891"
+            timestampString = "590921191.415215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -702,6 +737,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "784DF013-A826-47E2-8E24-3148A016C15C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -718,6 +754,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A6418E30-C70D-4F51-9645-17A35DE67A67"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -734,15 +771,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "98016D9A-C646-4B3B-94AE-71D749F3EC66"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.081991"
+            timestampString = "590921191.415296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -750,11 +788,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "075772F6-D8CE-432C-85D1-04DAA689A93D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.824658"
+            timestampString = "589879651.575071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "116"
@@ -766,11 +805,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "CCAE005F-1B55-44FC-9F1A-D24014998077"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.8250411"
+            timestampString = "589879651.575117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "115"
@@ -782,11 +822,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C3E66385-5243-4A17-B20B-FAFBA81C601C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.825334"
+            timestampString = "590908357.4283741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -798,11 +839,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "868E7EF6-AF3C-4C35-B1CE-2338CFBF6A0B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.825388"
+            timestampString = "590908357.428419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -814,15 +856,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "80CD6F0C-95B6-4671-B1C4-8FF77DAD6545"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.082774"
+            timestampString = "590921191.415403"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "handleAddButtonItemTapped(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -830,15 +873,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "6821840B-0CA0-4F85-904E-490E26211C1B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.083424"
+            timestampString = "590921191.415477"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "updateData(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -846,15 +890,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "8764C640-9EE4-41F8-892C-A3B5EE4ABF89"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.084149"
+            timestampString = "590921191.41553"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "updateData(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -862,31 +907,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D98B38DB-3BC5-4786-B5E9-1F1447282857"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.084821"
+            timestampString = "590921191.41559"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.085506"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "handleAddButtonItemTapped(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -894,11 +924,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "E8CC8A0C-0C55-4704-9ABB-6397194F3FBA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.828112"
+            timestampString = "589879651.57663"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
@@ -910,11 +941,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "2735A407-A8CD-4699-8569-92736ECBCD02"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.828411"
+            timestampString = "590908357.428705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -926,11 +958,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "AF485492-E9A1-4009-9ABD-FF4E36AA67FC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.828463"
+            timestampString = "590908357.4287471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -942,11 +975,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C35EF808-2226-4FC8-BBBB-269ADD1E63A9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.828509"
+            timestampString = "590908357.428786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -958,11 +992,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D987AAA1-59C6-413C-A81C-C01F758E66E1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.828554"
+            timestampString = "590908357.4288239"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -974,11 +1009,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "6973A680-458E-4B09-9E8B-0D4288F7B8A9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_DataDetailViewController.swift"
-            timestampString = "586685361.828599"
+            timestampString = "590908357.4288729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -990,15 +1026,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F9CD5620-363F-454F-9345-1F6C8214EB2C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.0863349"
+            timestampString = "590921191.415719"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1006,15 +1043,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "83315124-F611-4691-BF29-851192BC911A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.087064"
+            timestampString = "590921191.4157749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1022,15 +1060,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "3CE2BF23-4DA0-45B0-BAF6-139ACB69045A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.087804"
+            timestampString = "590921191.415827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "updateData(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1038,15 +1077,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4A138F17-A673-4C29-B859-782FB709DC3F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.088447"
+            timestampString = "590921191.415887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1054,15 +1094,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "CB0503BF-A116-4D92-B7CB-0AA7064F0893"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
-            timestampString = "587389087.08909"
+            timestampString = "590921191.415938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "updateData(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1070,16 +1111,921 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "65439301-FAAE-49FF-A938-2A7E16CD7DE4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
-            timestampString = "586685361.831118"
+            timestampString = "589879651.578126"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "120"
             endingLineNumber = "120"
             landmarkName = "handleSaveButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BE164FA-D3E8-4D37-9235-893CF94D9112"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/Utilities/LS_InitialData.swift"
+            timestampString = "587966282.639842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DBBD034-190E-4005-A59B-53788280FC01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/Utilities/LS_Utilities.swift"
+            timestampString = "591003141.388039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A2583BD-9DEA-4B4A-887A-BE3E7E05EC3A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
+            timestampString = "590921191.41609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFD88926-6014-4D90-A48E-7179EAF187F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
+            timestampString = "590921191.416142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "482EE068-6B86-4AA1-B41E-6E5482E87D7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.388139"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BAE42A8-8904-4D98-AD0B-48C022A8C2E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.3885911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_TableViewCell.swift"
+            timestampString = "590914414.558553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "LS_TableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - ab682e6d89126ec0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.removeButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - 3dc6c1307a077c5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.removeButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - a05223eeee4828c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.removeButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - 5e0bed52753cc246"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.removeButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - f79e03c58a26970a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MissTableViewNavigationController.LS_TableViewCell"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "487">
+               </Location>
+               <Location
+                  uuid = "3CE1375F-53BC-4C11-BA0A-77C62B6920AF - 31de894a46b9382a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_TableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_TableViewCell&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "425">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10ECDD24-3A08-4C45-AAD1-6ADE20D7DEA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.388953"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DECBD0E-6488-4160-B348-9B9D086951D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.3892829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D7A59C7-C92B-4CB7-8D45-7534B02EA5D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.389603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59EA309A-6347-4091-AF3D-A7D81248B143"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.3899209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "handleAddButtonItemTapped(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "770C6D60-1FA1-412D-8AE1-CC0668E21C6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/Utilities/LS_Utilities.swift"
+            timestampString = "591003141.390239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "addDummyData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D10687D-5A0D-45C6-951D-5B8974E722C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.39029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5332B1C3-EA86-4EDD-BE53-80773562AA43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
+            timestampString = "590921191.4201829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "907BE7FD-59B9-4A96-8131-1AC934916D19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.390625"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A06FD992-BC35-4142-A40A-A73820364F3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.390951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "666BD413-44F2-479C-9AD0-C0C2912D7A28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/ExampleTableViewController.swift"
+            timestampString = "590921191.421114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "579AC6D9-CAC9-40E2-83F0-CFFE0A17AFAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.391296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58B77F83-A71C-4C45-9025-8454204CD31E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewDataSource.swift"
+            timestampString = "591003141.391633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24F3B060-6F58-4691-9644-C8621110C6C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewDataSource.swift"
+            timestampString = "591003141.391699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1590414-83BC-4324-B96F-1236063C8EEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.391755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "setupTableView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05C8E2B0-C021-43AB-B5A7-4F3DCBBEA7F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.392068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "setupTableView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A2B3608-86B4-44E8-BE45-53A1B5F7A7DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.392391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "handleAddButtonItemTapped(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7BFA9BF-01BE-4616-BDF2-2EC082A0FF86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.392714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "handleAddButtonItemTapped(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67BA2E2D-9AF4-4071-9862-433F095381E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.393029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "handleAddButtonItemTapped(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "226FF178-1B25-49C4-B023-9E739008168C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.393335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "handleAddButtonItemTapped(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "372A67A7-397D-4BD7-A07B-AF9CEE9D7DFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewDataSource.swift"
+            timestampString = "591003141.3936419"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07C6B145-5E59-4CDE-988E-771E71A18023"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            timestampString = "591003141.393703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6446D2A5-FB0B-429D-A1AD-61D5F8A35B14"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "LS_DataTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9269F7F2-45FD-4880-8399-7F0286D961B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "tableView(_:willBeginEditingRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1250D2C6-6C7E-4C21-9AD8-FC7573ADB1E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "LS_DataTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58996416-B23F-43E7-B932-B30B17DD883E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "LS_DataTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "936D8B2E-5069-443D-BFD9-1B96E9FC481D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "LS_DataTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC5BC10D-F28E-4C93-B919-2C12135A158E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "removeButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18CAA7F0-035D-4D07-A052-076FBE042CD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "tableView(_:canEditRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4E598CC-72D2-41D6-A02E-9479EDC0A38C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99232BF2-A728-43A0-A637-DC1561D9F467"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C8A297A-9AA7-4BEE-A0CB-5D2BDF5CCD42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F644B70-5093-45CD-991A-2252B61E8455"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F644B70-5093-45CD-991A-2252B61E8455 - 541247fd698a203f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MissTableViewNavigationController.LS_DataTableViewController.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__C.UITableViewRowAction&gt;&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "2F644B70-5093-45CD-991A-2252B61E8455 - d32cc80010f6c48b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableViewRowAction, Foundation.IndexPath) -&gt; () in MissTableViewNavigationController.LS_DataTableViewController.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__C.UITableViewRowAction&gt;&gt;"
+                  moduleName = "MissTableViewNavigationController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "181">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEDE7015-9D5C-473F-90E5-7DAEE93DE402"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70814E25-82BB-469B-8DA7-797FFE546DBF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_EditDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3232D999-D7C0-4C40-837C-A3AFB9130F76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE7973EC-15F5-4BD8-9B95-403ECD7691CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0323A588-6492-44BF-8B10-418B470881DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13FD6EDE-114F-4955-9210-3731F586B2CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CE14E9F-7C7B-4901-81DA-718773D8202F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CE02D34-B5E9-4B38-843C-BC117B45121F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MissTableViewNavigationController/LS_DataTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

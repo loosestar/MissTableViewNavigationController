@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     		didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?)
     		-> Bool
 	{
-        let newVC = ExampleTableViewController(style: .grouped)
+        let newVC = LS_DataTableViewController(style: .grouped)
         let navController = UINavigationController(rootViewController: newVC)
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
