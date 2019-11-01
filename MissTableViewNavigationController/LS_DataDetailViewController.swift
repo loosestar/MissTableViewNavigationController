@@ -21,6 +21,20 @@ class LS_DataDetailViewController: UIViewController, LS_BackButtonDelegate {
     
     @IBOutlet var data_name: String?
     
+    // to add a navbar
+    override func viewWillLayoutSubviews() {
+        let width = self.view.frame.width
+        let navigationBar: UINavigationBar = UINavigationBar(frame: CGRect(x: 0.0, y: 0.0, width: width, height: 44))
+        self.view.addSubview(navigationBar)
+        
+        let navigationItem = UINavigationItem(title: "DetailView")
+        let doneButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: nil, action: #selector(handleDoneButtonTapped))
+        navigationItem.rightBarButtonItem = doneButton
+        navigationItem.leftBarButtonItem = _editButtonItem
+        
+        navigationBar.setItems([navigationItem], animated: false)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,8 +42,8 @@ class LS_DataDetailViewController: UIViewController, LS_BackButtonDelegate {
         
         data_name = allData?[dataIndex].name
         
-        self.title = "Hmm"
-        self.navigationItem.rightBarButtonItem = _editButtonItem
+//        self.title = "Hmm"
+//        self.navigationItem.rightBarButtonItem = _editButtonItem
         
         detailView = LS_DataDetailView()
         self.view = detailView        
@@ -75,5 +89,19 @@ class LS_DataDetailViewController: UIViewController, LS_BackButtonDelegate {
             let destinationEditViewController = LS_EditDetailViewController()
             self.navigationController?.pushViewController(destinationEditViewController, animated: false)
         }
+    }
+    
+    @objc func handleDoneButtonTapped() {
+        print("done!")
+        
+        let navController = UINavigationController(rootViewController: self)
+        UIApplication.shared.keyWindow?.rootViewController = navigationController
+        
+        let destinationTableViewController = LS_DataTableViewController()
+//        destinationTableViewController.delegate = self
+        destinationTableViewController.modelController = self.modelController
+//        self.navigationController?.present(destinationTableViewController, animated: false, completion: nil)
+//        self.navigationController?.pushViewController(destinationTableViewController, animated: false)
+        navController.pushViewController(destinationTableViewController, animated: false)
     }
 }

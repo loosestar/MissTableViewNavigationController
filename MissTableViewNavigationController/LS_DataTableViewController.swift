@@ -25,6 +25,7 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
             dataTableView.reloadData()
         }
     }
+//    weak var delegate: UITableViewDelegate?
     private var initialData: LS_Utilities!
 //    var dataTableView: UITableView = UITableView()
     var dataTableView: LS_DataTableView = LS_DataTableView()
@@ -228,6 +229,9 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("row \(indexPath.row) selected")
+//        performSegue(withIdentifier: "LS_DetailSegue", sender: tableView)
+        let detailVC = LS_DataDetailViewController()
+        self.present(detailVC, animated: true, completion: nil)
     }
     
     override func tableView(_ tableView: UITableView, willBeginEditingRowAt indexPath: IndexPath) {
@@ -286,6 +290,18 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
 //            self.dataTableView.endUpdates()
         } else {
             print("editing style is not delete?")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "LS_DetailSegue" {
+            if let detailViewController = segue.destination as? LS_DataDetailViewController {
+                let indexPath = self.tableView.indexPathForSelectedRow!
+                let index = indexPath.row
+            
+                detailViewController.modelController = self.modelController
+                detailViewController.dataIndex = index
+            }
         }
     }
 }
