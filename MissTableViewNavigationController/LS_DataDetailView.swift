@@ -14,48 +14,75 @@ protocol LS_BackButtonDelegate {
 
 class LS_DataDetailView: UIView {
     var delegate: LS_BackButtonDelegate?
-//    var detailData: LS_Data?
+    var detailData: LS_Data?
     var button = UIButton()
     
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-//        self.translatesAutoresizingMaskIntoConstraints = false
+
         // TODO: setupView()
         self.translatesAutoresizingMaskIntoConstraints = false
         
-        let margins = self.layoutMarginsGuide
-        self.leadingAnchor.constraint(equalTo: margins.leadingAnchor).isActive = true
-        self.topAnchor.constraint(equalTo: margins.topAnchor, constant: 0.0).isActive = true
-        
-//        self.layoutMargins = UIEdgeInsets(top: self.layoutMargins.top, left: 0.0, bottom: self.layoutMargins.bottom, right: self.layoutMargins.right)
+        // MUST USE safeAreaLayoutGuide for accurate Auto Layout fun from iOS11.0
+//        let margins = self.layoutMarginsGuide
+        let guide = self.safeAreaLayoutGuide
+//        self.leadingAnchor.constraint(equalTo: margins.leadingAnchor, constant: 0.0).isActive = true
+        self.leadingAnchor.constraint(equalTo: guide.leadingAnchor, constant: 0.0).isActive = true
+//        self.topAnchor.constraint(equalTo: margins.topAnchor, constant: 0.0).isActive = true
+        self.topAnchor.constraint(equalTo: guide.topAnchor, constant: 0.0).isActive = true
         
         self.backgroundColor = UIColor.blue
-        
+    }
+    
+    func setLabelTest() {
         let labelTest: UILabel = UILabel(frame: CGRect(x: self.frame.width/2, y: self.frame.height/2, width: self.frame.size.width, height: 30.0))
+        let margins = self.layoutMarginsGuide
+        let guide = self.safeAreaLayoutGuide
+        
+        print("detailData?.name: \(detailData?.name)")
+        
         self.addSubview(labelTest)
-//        labelTest.center = CGPoint(x: super.frame.size.width/2, y: super.frame.size.height/2)
-//        labelTest.widthAnchor.constraint(equalToConstant: labelTest.frame.width)
-//        labelTest.heightAnchor.constraint(equalToConstant: labelTest.frame.height)
         labelTest.translatesAutoresizingMaskIntoConstraints = false
         labelTest.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         labelTest.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
         labelTest.backgroundColor = UIColor.clear
         labelTest.textAlignment = .center
-        labelTest.text = "blah blah blah"
-        labelTest.topAnchor.constraint(equalTo: margins.topAnchor, constant: 0.0).isActive = true
+        labelTest.text = detailData?.name   //"blah blah blah"
+        labelTest.topAnchor.constraint(equalTo: guide.centerYAnchor, constant: -30.0/2.0).isActive = true
+        labelTest.leadingAnchor.constraint(equalTo: guide.centerXAnchor, constant: -150.0/2.0).isActive = true
         labelTest.frame.size.height = 30.0
-//        labelTest.heightAnchor.constraint(equalTo: margins.heightAnchor, constant: 30.0).isActive = true
-//        labelTest.leadingAnchor.constraint(equalTo: margins.leadingAnchor).isActive = true
         labelTest.textColor = UIColor.yellow
-        
-//        labelTest.translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    
+    func setEmptyLabel() {
+        let labelTest: UILabel = UILabel(frame: CGRect(x: self.frame.width/2, y: self.frame.height/2, width: self.frame.size.width, height: 30.0))
+        let margins = self.layoutMarginsGuide
+        let guide = self.safeAreaLayoutGuide
+        
+        print("detailData?.name: \"\"")
+        
+        self.addSubview(labelTest)
+        labelTest.translatesAutoresizingMaskIntoConstraints = false
+        labelTest.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+        labelTest.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        labelTest.backgroundColor = UIColor.clear
+        labelTest.textAlignment = .center
+        labelTest.text = "UNDEFINED"  //"blah blah blah"
+        labelTest.topAnchor.constraint(equalTo: guide.centerYAnchor, constant: -30.0/2.0).isActive = true
+        labelTest.leadingAnchor.constraint(equalTo: guide.centerXAnchor, constant: -150.0/2.0).isActive = true
+        labelTest.frame.size.height = 30.0
+        labelTest.textColor = UIColor.yellow
+    }
+    
+//    func setTabTest() {
+//        
+//    }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     
     func onBackButtonTouched(sender: UIButton) {

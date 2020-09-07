@@ -10,24 +10,21 @@ import Foundation
 import UIKit
 
 class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDelegate {
+    var tbController: LS_TabBarController!
+    
     func onCellTouched(sender: UITableViewCell) {
         print("cell touched!")
     }
     
-    private var tableData = [LS_Data]() //{
-//        didSet {
-//            tableView.reloadData()
-//        }
-//    }
+    private var tableData = [LS_Data]()
     var modelController: LS_DataController!
     var dataSource: LS_DataTableViewDataSource! = nil {
         didSet {
             dataTableView.reloadData()
         }
     }
-//    weak var delegate: UITableViewDelegate?
+
     private var initialData: LS_Utilities!
-//    var dataTableView: UITableView = UITableView()
     var dataTableView: LS_DataTableView = LS_DataTableView()
     let cellID = "cellID"
     
@@ -38,16 +35,20 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
                                target: self,
                                action: #selector(handleAddButtonItemTapped))
     }()
-    fileprivate lazy var _editButtonItem: UIBarButtonItem = self.editButtonItem
-//        return UIBarButtonItem(barButtonSystemItem: .edit,
-//                               target: self,
-//                               action: #selector(handleEditButtonItemTapped))
-//    }()
+    fileprivate lazy var _editButtonItem: UIBarButtonItem = {//self.editButtonItem
+        return UIBarButtonItem(barButtonSystemItem: .edit,
+                               target: self,
+                               action: #selector(handleEditButtonItemTapped))
+    }()
+    fileprivate lazy var _doneButtonItem: UIBarButtonItem = {
+        return UIBarButtonItem(barButtonSystemItem: .done,
+                               target: self,
+                               action: #selector(handleDoneButtonItemTapped))
+    }()
     
     @objc func handleAddButtonItemTapped(sender: UIBarButtonItem) {
         print("Display an alert/view/etc to add details of a new item then the item itself to tableData")
-        
-//        var theTextField: UITextField?
+
         let alertController = UIAlertController(title: "New item", message: "Enter a string", preferredStyle: .alert)
         
         alertController.addTextField(configurationHandler: nil)
@@ -59,11 +60,12 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
                 let newIndex = self.tableData.count
                 self.tableData.append(newData)
                 self.dataSource.data = self.tableData
-//                self.dataTableView.dataSource = self.dataSource
+                
+                // TODO: maybe reloadData()
+                self.modelController.dataStructure = self.dataSource.data
+                self.loadData()
                 
                 self.dataTableView.reloadData()
-//                self.dataTableView.insertRows(at: [IndexPath(row: newIndex, section: 0)], with: .top)
-//                self.dataTableView.reloadData()
             } else {
                 print("error entering or reading text")
             }
@@ -72,34 +74,52 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
         self.present(alertController, animated: true, completion: nil)
     }
     
-//    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
-//        print("Edit mode?")
-//
-//        if !self.dataTableView.isEditing {
-//            self.navigationItem.leftBarButtonItem?.isEnabled = false
-//            self.navigationItem.rightBarButtonItem?.title = "Done"
-//            self.dataTableView.setEditing(true, animated: true)
-//        } else {
+    @objc func handleEditButtonItemTapped(sender: UIBarButtonItem) {
+        print("Edit mode?")
+
+        if !self.dataTableView.isEditing {
+            self.navigationItem.leftBarButtonItem?.isEnabled = false
+            self.navigationItem.rightBarButtonItem = self._doneButtonItem
+            self.dataTableView.setEditing(true, animated: true)
+        } else {
 //            self.navigationItem.leftBarButtonItem?.isEnabled = true
 //            self.navigationItem.rightBarButtonItem?.title = "Edit"
 //            self.dataTableView.setEditing(false, animated: true)
-//        }
-//    }
+        }
+    }
+    
+    @objc func handleDoneButtonItemTapped(sender: UIBarButtonItem) {
+        print("Done mode?")
+
+        if self.dataTableView.isEditing {
+            self.navigationItem.leftBarButtonItem?.isEnabled = true
+            self.navigationItem.rightBarButtonItem = self._editButtonItem
+            self.dataTableView.setEditing(false, animated: true)
+        } else {
+//            self.navigationItem.leftBarButtonItem?.isEnabled = true
+//            self.navigationItem.rightBarButtonItem?.title = "Edit"
+//            self.dataTableView.setEditing(false, animated: true)
+        }
+    }
     
     override func viewDidLoad() {
-//        super.viewDidLoad()
         super.viewWillAppear(true)
         
-        // setup tableView
         self.setupTableView()
+        self.tbController = LS_TabBarController()
+        tbController.tableDelegate = self
         
         // load data AND SET THE DELEGATE D:
         self.loadData()
         self.dataTableView.delegate = self
         self.dataTableView.reloadData()
+        self.dataTableView.beginUpdates()
+        self.dataTableView.endUpdates()
         
-        self.view = dataTableView
+        self.view = self.dataTableView
         self.view.setNeedsDisplay()
+        
+//        print("visible cells legitimate now? \(self.dataTableView.visibleCells) -- NO")
     }
     
     // registers a class for the creation of table cells
@@ -107,11 +127,6 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "LS_TableViewCell")
         self.dataTableView = LS_DataTableView()
         self.dataTableView.register(LS_TableViewCell.self, forCellReuseIdentifier: "LS_TableViewCell")
-//        self.dataTableView.allowsSelectionDuringEditing = true
-//        self.dataTableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
-//        self.dataTableView.reloadData()
-//        self.tableView = self.dataTableView
-//        self.tableView = ExampleTableView()
     }
     
     func loadData() {
@@ -119,7 +134,7 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
             print("WARNING: modelController is nil")
             print("tableData has \(tableData.count) elements")
             
-            modelController = LS_DataController()
+            modelController = self.tbController.modelController //LS_DataController()
             
             if tableData.count > 0 {
                 modelController.dataStructure = tableData
@@ -132,6 +147,7 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
                 
                 self.dataTableView.dataSource = dataSource
             } else {
+                print("INITIALISING tableData")
                 // dummy elements as no tableData exists
                 initialData = LS_Utilities.init()
                 tableData = initialData.allData()
@@ -139,53 +155,110 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
                 
                 self.dataTableView.dataSource = dataSource
                 
-//                modelController.dataStructure = tableData
-//                print("modelController.dataStructure now has \(modelController.dataStructure.count) dummy elements")
                 print("dataTableView has \(self.dataTableView.numberOfRows(inSection: 0)) rows")
-                print("dataTableView has \(self.dataTableView.visibleCells.count) visible cells")
+//                print("dataTableView has \(self.dataTableView.visibleCells.count) visible cells")
                 
                 if !tableData.isEmpty {
                     modelController.dataStructure = tableData
                     let newIndexPaths:[IndexPath] = (0 ..< modelController.dataStructure.count).map { IndexPath(row: $0, section: 0)}
                     
-                    print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView before insertRows with \(newIndexPaths.count) indexPaths")
-//                    self.dataTableView.insertRows(at: newIndexPaths, with: .bottom)
-                    print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView after insertRows")
-//                    self.dataTableView.reloadData()
+                    self.dataTableView.reloadData()
                     
-                    print("modelController.dataStructure now has \(modelController.dataStructure.count) elements")
+                    print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView before insertRows with \(newIndexPaths.count) indexPaths")
+                    print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView after insertRows")
+                    
+                    print("tableData was not empty, modelController.dataStructure now has \(modelController.dataStructure.count) elements")
                 } else {
                     modelController.dataStructure = tableData
                     
-                    print("modelController.dataStructure now has \(modelController.dataStructure.count) elements")
+                    print("tableData was empty, modelController.dataStructure now has \(modelController.dataStructure.count) elements")
                 }
-
-//                self.dataTableView.beginUpdates()
-//                self.dataTableView.insertRows(at: newIndexPaths, with: .automatic)     //insertRows(at: newIndexPaths, with: .bottom)
-
-//                DispatchQueue.main.async {
-//                print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView before insertRows with \(newIndexPaths.count) indexPaths")
-//                    self.dataTableView.insertRows(at: newIndexPaths, with: .bottom)
-//                print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView after insertRows")
-//                    self.dataTableView.reloadData()
-//                    self.dataTableView.performBatchUpdates(self.reloadInputViews, completion: nil)
-//                }
             
-//                self.dataTableView.endUpdates()
-            
-                print("tableView has \(self.dataTableView.visibleCells.count) visible cells")
+//                print("tableView has \(self.dataTableView.visibleCells.count) visible cells")
                 print("meanwhile tableView has \(self.dataTableView.numberOfRows(inSection: 0)) rows")
-                
-//                self.tableView.reloadData()
                 
                 // TODO: TEMPORARY, testing!
                 self.title = "ViewController Title"
                 self.navigationItem.leftBarButtonItem = self._addButtonItem
                 self.navigationItem.rightBarButtonItem = self._editButtonItem
+            }
+        } else {
+            print("Populate the table with known data!")
+            
+            tableData = modelController.dataStructure
+            
+            if tableData.count > 0 {
+                if dataSource == nil {
+                    dataSource = LS_DataTableViewDataSource(data: tableData, reuseIdentifier: "LS_TableViewCell")
+                }
                 
-//                DispatchQueue.main.async {
-//                    self.tableView.reloadData()
-//                }
+                print("modelController.dataStructure now has \(modelController.dataStructure.count) elements")
+                
+                self.dataTableView.dataSource = dataSource
+            }
+            
+            let newIndexPaths:[IndexPath] = (0 ..< modelController.dataStructure.count).map { IndexPath(row: $0, section: 0)}
+                                
+            self.dataTableView.reloadData()
+            
+            print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView before insertRows with \(newIndexPaths.count) indexPaths")
+//                    self.dataTableView.insertRows(at: newIndexPaths, with: .bottom)
+            print("\(self.dataTableView.numberOfRows(inSection: 0)) rows in dataTableView after insertRows")
+//                    self.dataTableView.reloadData()
+            
+            print("tableData was not empty, modelController.dataStructure now has \(modelController.dataStructure.count) elements")
+            
+            self.title = "ViewController Title"
+            self.navigationItem.leftBarButtonItem = self._addButtonItem
+            self.navigationItem.rightBarButtonItem = self._editButtonItem
+        }
+    }
+    
+    func updateData(index: Int) {
+        print("this method happily copies data between an edit vc and detail vc. HAPPILY")
+
+//        self.modelController.dataStructure[index] = modifiedData
+        
+        self.tableData[index] = self.modelController.dataStructure[index]
+        print("updated detailData: \(self.modelController.dataStructure[index].name)")
+
+        // TODO: put the modified detailData in the modelController
+//        self.saveData(detailData: self.detailData)
+    }
+    
+    func updateDataSource() {
+        self.dataSource.data = self.tableData
+    }
+    
+    func saveData(detailData: LS_Data) {
+        print("detailData.id: \(detailData.id)")
+//        for i in (0...(self.tbController.modelController!.dataStructure.count - 1)) {
+//            if self.tbController.modelController.dataStructure[i].id == detailData.id {
+//                print("dataStructure and detailData ids DO match\n\t\(self.tbController.modelController.dataStructure[i].id) : \(detailData.id)")
+//                print("updating the dataModel at \(i)")
+//                print("editData.name: \(detailData.name)")
+//
+//                self.tbController.modelController.dataStructure[i] = detailData
+//                print("data name in modelController: \(self.tbController.modelController.dataStructure[i].name)")
+//            } else {
+//                print("dataStructure and detailData ids don't match\n\t\(self.tbController.modelController.dataStructure[i].id) : \(detailData.id)")
+//            }
+//        }
+        
+        for i in (0...(self.modelController!.dataStructure.count - 1)) {
+            if self.modelController.dataStructure[i].id == detailData.id {
+                let indexPath: IndexPath = IndexPath(item: i, section: 0)
+                
+                print("dataStructure and detailData ids DO match\n\t\(self.modelController.dataStructure[i].id) : \(detailData.id)")
+                print("updating the dataModel at \(i)")
+                print("editData.name: \(detailData.name)")
+
+                self.modelController.dataStructure[i].name = detailData.name
+                
+                print("data name in modelController: \(self.modelController.dataStructure[i].name)")
+                self.dataTableView.reloadData() //reloadRows(at: [indexPath], with: UITableView.RowAnimation.none)
+            } else {
+                print("dataStructure and detailData ids don't match\n\t\(self.modelController.dataStructure[i].id) : \(detailData.id)")
             }
         }
     }
@@ -228,10 +301,38 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        let tbController = LS_TabBarController()
+        
         print("row \(indexPath.row) selected")
 //        performSegue(withIdentifier: "LS_DetailSegue", sender: tableView)
         let detailVC = LS_DataDetailViewController()
-        self.present(detailVC, animated: true, completion: nil)
+        detailVC.delegate = self
+//        let navigationController = UINavigationController()
+//        navigationController.viewControllers = [detailVC]
+//        detailVC.modalPresentationStyle = .pageSheet // detail should be fullscreen!
+//        detailVC.modelController = modelController
+        tbController!.activeIndex = indexPath.row
+        detailVC.dataIndex = indexPath.row
+//        detailVC.detailData = self.modelController.dataStructure[detailVC.dataIndex]
+//        detailVC.detailView = LS_DataDetailView() // detailView or view?
+        detailVC.loadData()
+        detailVC.tbController = tbController
+//        detailVC.prepareView()
+//        detailVC.viewWillLayoutSubviews()
+        
+        detailVC.modalPresentationStyle = .fullScreen
+//        self.present(detailVC, animated: true, completion: nil)
+//        self.present(navigationController, animated: true, completion: nil)
+        
+//        detailVC.viewWillLayoutSubviews()
+        tbController.addChild(detailVC)
+        
+//        self.present(detailVC, animated: false, completion: nil)
+//        appDelegate.window?.rootViewController = self.tbController
+        
+        self.navigationController?.pushViewController(tbController, animated: false)
+//        self.present(tbController, animated: false, completion: nil)
     }
     
     override func tableView(_ tableView: UITableView, willBeginEditingRowAt indexPath: IndexPath) {
@@ -242,38 +343,22 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
         return true
     }
     
-//    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-//        print("Editing row \(indexPath.row)")
-//        
-//        if indexPath.row == 1 {
-//            return false
-//        }
-//        
-//        return true
-//    }
-    
-//    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
-////        if (self.tableView.isEditing) {
-//        return UITableViewCell.EditingStyle.delete
-////        } else {
-////            return UITableViewCell.EditingStyle.none
-////        }
-//    }
-    
-    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let deleteAction = UITableViewRowAction(style: .normal, title: "Delete", handler: { (rowAction, indexPath) in
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .normal, title: "Delete", handler: { (rowAction, tableView, completionHandler)  in
             self.tableData.remove(at: indexPath.row)
             self.tableView.beginUpdates()
             self.dataSource.data = self.tableData
-//            self.modelController.dataStructure = self.tableData
-//            self.dataTableView.reloadData()
+            self.modelController.dataStructure = self.dataSource.data
+
             self.tableView.reloadData()
             self.tableView.deleteRows(at: [indexPath], with: .fade)
             self.tableView.endUpdates()
         })
         deleteAction.backgroundColor = .red
         
-        return [deleteAction]
+        let swipeAction: UISwipeActionsConfiguration = UISwipeActionsConfiguration(actions: [deleteAction])
+        
+        return swipeAction
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
@@ -298,9 +383,10 @@ class LS_DataTableViewController: UITableViewController, LS_DataTableViewCellDel
             if let detailViewController = segue.destination as? LS_DataDetailViewController {
                 let indexPath = self.tableView.indexPathForSelectedRow!
                 let index = indexPath.row
-            
-                detailViewController.modelController = self.modelController
+                
+//                detailViewController.modelController = self.modelController
                 detailViewController.dataIndex = index
+                detailViewController.detailData = self.modelController.dataStructure[detailViewController.dataIndex]
             }
         }
     }

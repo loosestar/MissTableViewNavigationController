@@ -232,7 +232,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let editViewController = segue.destination as? LS_EditDetailViewController
-        let index = tableView.indexPathForSelectedRow?.row as! Int
+        let index = tableView.indexPathForSelectedRow?.row
         
 //        editViewController!.editData = tableData[index]
         editViewController!.modelController = modelController
