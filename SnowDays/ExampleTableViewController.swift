@@ -33,7 +33,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
         // load data
         self.loadData()
         
-        self.title = "SnowDays"
+        self.title = "ViewController Title"
         self.navigationItem.leftBarButtonItem = self._addButtonItem
         self.navigationItem.rightBarButtonItem = self._editButtonItem
         
@@ -58,6 +58,11 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
             print("tableData has \(tableData.count) elements")
             modelController = LS_DataController()
             
+            // TODO: TEMPORARY, testing!
+            self.title = "ViewController Title"
+            self.navigationItem.leftBarButtonItem = self._addButtonItem
+            self.navigationItem.rightBarButtonItem = self._editButtonItem
+            
             if tableData.count > 0 {
                 modelController.dataStructure = tableData
                 print("modelController.dataStructure now has \(modelController.dataStructure.count) elements")
@@ -67,7 +72,6 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
                 modelController.dataStructure = tableData
             }
         } else {
-//            modelController.dataStructure = tableData
             
             tableData = modelController.dataStructure
         }
@@ -109,10 +113,11 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Shortcut. Will eventually register a cell subclass which then be dequed
         
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        let cell = LS_TableViewCell(style: .default, reuseIdentifier: "LS_TableViewCell") //UITableViewCell(style: .default, reuseIdentifier: nil)
 //        cell.textLabel?.text = "DefOink \(indexPath.row + 1)"
         if tableData.count > indexPath.row {
             cell.textLabel?.text = tableData[indexPath.row].name
+            cell.titleLabel.text = tableData[indexPath.row].name
         }
         return cell
     }
@@ -139,10 +144,10 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
                 print("numRows in section: \(self.tableView.numberOfRows(inSection: tableView.numberOfSections - 1))")
                 self.tableView.beginUpdates()
                 self.tableView.deleteRows(at: [indexPath], with: .automatic)
-                self.tableView.reloadData()
+//                self.tableView.reloadData()
                 self.tableView.endUpdates()
                 print("numRows in section: \(self.tableView.numberOfRows(inSection: tableView.numberOfSections - 1))")
-                self.tableView.reloadData()
+//                self.tableView.reloadData()
                 print("numRows in section: \(self.tableView.numberOfRows(inSection: tableView.numberOfSections - 1))")
             }
         }
@@ -170,7 +175,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
 //                editView = LS_EditDetailViewController
                 self.tableData.append(newData)
 //                self.loadData()
-                self.tableView.reloadData()
+//                self.tableView.reloadData()
                 // TODO: Should be EditDetailViewController
                 let destinationEditDetailViewController = LS_EditDetailViewController()
                 destinationEditDetailViewController.allData = self.tableData
@@ -227,7 +232,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let editViewController = segue.destination as? LS_EditDetailViewController
-        let index = tableView.indexPathForSelectedRow?.row as! Int
+        let index = tableView.indexPathForSelectedRow?.row
         
 //        editViewController!.editData = tableData[index]
         editViewController!.modelController = modelController
