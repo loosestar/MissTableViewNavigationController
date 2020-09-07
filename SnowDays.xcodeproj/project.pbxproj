@@ -12,6 +12,7 @@
 		4A25124222DF00320033DB42 /* LS_DataDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25124122DF00320033DB42 /* LS_DataDetailView.swift */; };
 		4A25124422DF03D20033DB42 /* ExampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25124322DF03D20033DB42 /* ExampleTableView.swift */; };
 		4A29B3F322F165F000D9CB34 /* LS_DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29B3F222F165F000D9CB34 /* LS_DataController.swift */; };
+		4A400B4725061C070080E3FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A400B4625061C070080E3FA /* Default-568h@2x.png */; };
 		4A58890922E41B690079B86F /* LS_EditDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58890822E41B690079B86F /* LS_EditDetailViewController.swift */; };
 		4A58890B22E41BA80079B86F /* LS_EditDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58890A22E41BA80079B86F /* LS_EditDetailView.swift */; };
 		4A84649F22A4EBA1008F3F60 /* LS_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84649E22A4EBA1008F3F60 /* LS_Data.swift */; };
@@ -28,10 +29,11 @@
 		4A25124122DF00320033DB42 /* LS_DataDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataDetailView.swift; sourceTree = "<group>"; };
 		4A25124322DF03D20033DB42 /* ExampleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableView.swift; sourceTree = "<group>"; };
 		4A29B3F222F165F000D9CB34 /* LS_DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataController.swift; sourceTree = "<group>"; };
+		4A400B4625061C070080E3FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4A58890822E41B690079B86F /* LS_EditDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_EditDetailViewController.swift; sourceTree = "<group>"; };
 		4A58890A22E41BA80079B86F /* LS_EditDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_EditDetailView.swift; sourceTree = "<group>"; };
 		4A84649E22A4EBA1008F3F60 /* LS_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LS_Data.swift; sourceTree = "<group>"; };
-		4ADA986022927FA700DD9E26 /* MissTableViewNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissTableViewNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA986022927FA700DD9E26 /* SnowDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA986322927FA700DD9E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADA986522927FA700DD9E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ADA986A22927FAA00DD9E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +65,8 @@
 		4ADA985722927FA700DD9E26 = {
 			isa = PBXGroup;
 			children = (
-				4ADA986222927FA700DD9E26 /* MissTableViewNavigationController */,
+				4A400B4625061C070080E3FA /* Default-568h@2x.png */,
+				4ADA986222927FA700DD9E26 /* SnowDays */,
 				4ADA986122927FA700DD9E26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,12 +74,12 @@
 		4ADA986122927FA700DD9E26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4ADA986022927FA700DD9E26 /* MissTableViewNavigationController.app */,
+				4ADA986022927FA700DD9E26 /* SnowDays.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4ADA986222927FA700DD9E26 /* MissTableViewNavigationController */ = {
+		4ADA986222927FA700DD9E26 /* SnowDays */ = {
 			isa = PBXGroup;
 			children = (
 				4A8464A022A4F4A3008F3F60 /* Model */,
@@ -93,15 +96,15 @@
 				4ADA986C22927FAA00DD9E26 /* LaunchScreen.storyboard */,
 				4ADA986F22927FAA00DD9E26 /* Info.plist */,
 			);
-			path = MissTableViewNavigationController;
+			path = SnowDays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4ADA985F22927FA700DD9E26 /* MissTableViewNavigationController */ = {
+		4ADA985F22927FA700DD9E26 /* SnowDays */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4ADA987222927FAA00DD9E26 /* Build configuration list for PBXNativeTarget "MissTableViewNavigationController" */;
+			buildConfigurationList = 4ADA987222927FAA00DD9E26 /* Build configuration list for PBXNativeTarget "SnowDays" */;
 			buildPhases = (
 				4ADA985C22927FA700DD9E26 /* Sources */,
 				4ADA985D22927FA700DD9E26 /* Frameworks */,
@@ -111,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = MissTableViewNavigationController;
+			name = SnowDays;
 			productName = MissTableViewNavigationController;
-			productReference = 4ADA986022927FA700DD9E26 /* MissTableViewNavigationController.app */;
+			productReference = 4ADA986022927FA700DD9E26 /* SnowDays.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4ADA985B22927FA700DD9E26 /* Build configuration list for PBXProject "MissTableViewNavigationController" */;
+			buildConfigurationList = 4ADA985B22927FA700DD9E26 /* Build configuration list for PBXProject "SnowDays" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4ADA985F22927FA700DD9E26 /* MissTableViewNavigationController */,
+				4ADA985F22927FA700DD9E26 /* SnowDays */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +159,7 @@
 			files = (
 				4ADA986E22927FAA00DD9E26 /* LaunchScreen.storyboard in Resources */,
 				4ADA986B22927FAA00DD9E26 /* Assets.xcassets in Resources */,
+				4A400B4725061C070080E3FA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +249,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowDays/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loosestar.snowdays;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -300,9 +306,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowDays/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loosestar.snowdays;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -316,12 +324,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39288DUHNU;
-				INFOPLIST_FILE = MissTableViewNavigationController/Info.plist;
+				GCC_PREFIX_HEADER = SnowDays;
+				INFOPLIST_FILE = SnowDays/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LS.MissTableViewNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.SnowDays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,12 +343,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39288DUHNU;
-				INFOPLIST_FILE = MissTableViewNavigationController/Info.plist;
+				GCC_PREFIX_HEADER = SnowDays;
+				INFOPLIST_FILE = SnowDays/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LS.MissTableViewNavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.SnowDays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4ADA985B22927FA700DD9E26 /* Build configuration list for PBXProject "MissTableViewNavigationController" */ = {
+		4ADA985B22927FA700DD9E26 /* Build configuration list for PBXProject "SnowDays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4ADA987022927FAA00DD9E26 /* Debug */,
@@ -358,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4ADA987222927FAA00DD9E26 /* Build configuration list for PBXNativeTarget "MissTableViewNavigationController" */ = {
+		4ADA987222927FAA00DD9E26 /* Build configuration list for PBXNativeTarget "SnowDays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4ADA987322927FAA00DD9E26 /* Debug */,

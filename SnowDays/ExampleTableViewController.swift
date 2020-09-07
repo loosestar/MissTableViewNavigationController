@@ -33,7 +33,7 @@ class ExampleTableViewController: UITableViewController, LS_CellDelegate {
         // load data
         self.loadData()
         
-        self.title = "ViewController Title"
+        self.title = "SnowDays"
         self.navigationItem.leftBarButtonItem = self._addButtonItem
         self.navigationItem.rightBarButtonItem = self._editButtonItem
         
