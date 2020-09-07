@@ -9,9 +9,9 @@
 import UIKit
 
 // Protocol delegating cell touches to the ViewController
-protocol LS_CellDelegate: class {
-    func onCellTouched(sender: UITableViewCell)
-}
+//protocol LS_CellDelegate: class {
+//    func onCellTouched(sender: UITableViewCell)
+//}
 
 class ExampleTableView: UITableView {
     weak var cellDelegate: LS_CellDelegate?

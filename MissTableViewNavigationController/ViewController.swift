@@ -12,10 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // add dummy data
+        
         // Do any additional setup after loading the view.
 //        var leftButton: UIBarButtonItem = UIBarButtonItem(title: "left", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
 //        var rightButton: UINavigationItem = UINavigationItem(title: "right")
-        
+//        
 //        self.navigationItem.leftBarButtonItem = leftButton
     }
     
