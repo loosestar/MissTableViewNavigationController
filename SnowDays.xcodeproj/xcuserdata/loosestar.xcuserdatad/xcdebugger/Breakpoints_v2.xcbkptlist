@@ -4236,98 +4236,6 @@
             endingLineNumber = "31"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - d115204b32958ec"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.(firstLaunch in _5788EA28CA10658EF28B26CDFBD4587E).getter : Swift.Bool"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "89">
-               </Location>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - 51f3352d8a7a20f8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.(firstLaunch in _5788EA28CA10658EF28B26CDFBD4587E).setter : Swift.Bool"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "118">
-               </Location>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - 75cf8aac634922eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.(firstLaunch in _5788EA28CA10658EF28B26CDFBD4587E).modify : Swift.Bool"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - c83c46c95df531f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.(firstLaunch in _5788EA28CA10658EF28B26CDFBD4587E).modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - 69cb5c3b7cca9205"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_TabBarController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "1750">
-               </Location>
-               <Location
-                  uuid = "A7ECE36E-6F44-4409-AAF1-2E32EE851D9D - 429085006cc5f7cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "1685">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4472,38 +4380,6 @@
             endingLineNumber = "202"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "48F77109-0337-4A02-A99E-5FDF5853316F - 989ce821bfcc3033"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_MediaViewController.getMediaResources() -&gt; ()"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_MediaViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "203"
-                  endingLineNumber = "203"
-                  offsetFromSymbolStart = "532">
-               </Location>
-               <Location
-                  uuid = "48F77109-0337-4A02-A99E-5FDF5853316F - b2a43d921c71768f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.PHAuthorizationStatus) -&gt; () in MissTableViewNavigationController.LS_MediaViewController.getMediaResources() -&gt; ()"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_MediaViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "204"
-                  endingLineNumber = "204"
-                  offsetFromSymbolStart = "170">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4632,53 +4508,6 @@
             endingLineNumber = "20"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "70A04C47-08DC-495D-8EF8-C8A932B5B94D - 15e1f70133002812"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.media.getter : MissTableViewNavigationController.LS_MediaViewController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "70A04C47-08DC-495D-8EF8-C8A932B5B94D - 69cb5c3b7cca9205"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_TabBarController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "1066">
-               </Location>
-               <Location
-                  uuid = "70A04C47-08DC-495D-8EF8-C8A932B5B94D - 429085006cc5f7cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_TabBarController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_TabBarController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "1007">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4887,98 +4716,6 @@
             endingLineNumber = "20"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - f5fa9bd48ec559b0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.detailView.getter : Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailView&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "126">
-               </Location>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - 67e8dbe779589984"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.detailView.setter : Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailView&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "164">
-               </Location>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - 142a269ff48d9b5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.detailView.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailView&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - 15a2d7994f7a5545"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.detailView.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailView&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - c93ec8bac2126582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_DataDetailViewController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "543">
-               </Location>
-               <Location
-                  uuid = "31838F2B-83FE-4DE9-87A2-CBA64005D393 - 9376ef7512ff3a49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailViewController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "500">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4995,38 +4732,6 @@
             endingLineNumber = "25"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "2C4BF6EE-6F04-41B3-869D-B02E74040B4D - c93ec8bac2126582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_DataDetailViewController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "991">
-               </Location>
-               <Location
-                  uuid = "2C4BF6EE-6F04-41B3-869D-B02E74040B4D - 9376ef7512ff3a49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailViewController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "942">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5043,98 +4748,6 @@
             endingLineNumber = "29"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - 525a32d3b4c5cf63"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.tbController.getter : Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "126">
-               </Location>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - 6bdf2a26c9270f77"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.tbController.setter : Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "164">
-               </Location>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - a06ed6212b374f64"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.tbController.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - 7d23b3db24bcd541"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.tbController.modify : Swift.Optional&lt;MissTableViewNavigationController.LS_TabBarController&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - c93ec8bac2126582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_DataDetailViewController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "1091">
-               </Location>
-               <Location
-                  uuid = "EE2E5C8C-FBF5-4140-988D-9F8C3A1E9B8F - 9376ef7512ff3a49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailViewController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "1042">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5167,113 +4780,6 @@
             endingLineNumber = "32"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - b2420c3e286dc2a8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.(_editButtonItem in _C91110F1F62FD5ED6DC5E2B51DD514AA).getter : __C.UIBarButtonItem"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "196">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - f57adcc9d49a1ebc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.(_editButtonItem in _C91110F1F62FD5ED6DC5E2B51DD514AA).setter : __C.UIBarButtonItem"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "164">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - acff4e3e009583ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.(_editButtonItem in _C91110F1F62FD5ED6DC5E2B51DD514AA).modify : __C.UIBarButtonItem"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - 7c27a8b6f3a32f9c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.(_editButtonItem in _C91110F1F62FD5ED6DC5E2B51DD514AA).modify : __C.UIBarButtonItem with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - c93ec8bac2126582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MissTableViewNavigationController.LS_DataDetailViewController"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "1763">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - 9376ef7512ff3a49"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MissTableViewNavigationController.LS_DataDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MissTableViewNavigationController.LS_DataDetailViewController&gt;"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "1714">
-               </Location>
-               <Location
-                  uuid = "C722FEE1-1268-4FCD-A97F-8154264A5F9E - 414941c430ed265b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; __C.UIBarButtonItem in MissTableViewNavigationController.LS_DataDetailViewController.(_editButtonItem in _C91110F1F62FD5ED6DC5E2B51DD514AA).getter : __C.UIBarButtonItem"
-                  moduleName = "MissTableViewNavigationController"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/loosestar/Documents/loosestar/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataDetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5690,6 +5196,70 @@
             endingLineNumber = "190"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4785CAF5-C970-41F1-900A-575ADBA72C28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnowDays/LS_TabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A705156F-777F-4120-B5E7-DFBF7EE6C1D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnowDays/LS_TabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A705156F-777F-4120-B5E7-DFBF7EE6C1D0 - 7e92df44b9817c1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnowDays.LS_TabBarController.viewDidLoad() -&gt; ()"
+                  moduleName = "SnowDays"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/SnowDays/Project/MissTableViewNavigationController/SnowDays/LS_TabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2115">
+               </Location>
+               <Location
+                  uuid = "A705156F-777F-4120-B5E7-DFBF7EE6C1D0 - e670549053e9b1ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIViewController) -&gt; __C.UIViewController in SnowDays.LS_TabBarController.viewDidLoad() -&gt; ()"
+                  moduleName = "SnowDays"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loosestar/Documents/loosestar/SnowDays/Project/MissTableViewNavigationController/SnowDays/LS_TabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

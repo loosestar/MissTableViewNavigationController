@@ -26,7 +26,8 @@
 		4A91FB032303E5AF00021B44 /* LS_DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91FB022303E5AF00021B44 /* LS_DataTableView.swift */; };
 		4A91FB072303E7F100021B44 /* LS_DataTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91FB062303E7F100021B44 /* LS_DataTableViewModel.swift */; };
 		4A91FB092303E8A900021B44 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91FB082303E8A900021B44 /* Dynamic.swift */; };
-		4A91FB0B2303EEFF00021B44 /* LS_DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91FB0A2303EEFF00021B44 /* LS_DataTableViewController.swift */; };
+		4A92F170250C65E100EC3CC1 /* LS_DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92F16F250C65E100EC3CC1 /* LS_DataTableViewController.swift */; };
+		4A92F172250C662300EC3CC1 /* LS_DataTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92F171250C662300EC3CC1 /* LS_DataTableViewDataSource.swift */; };
 		4ABA352023E7E04A004751F3 /* LS_ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA351F23E7E04A004751F3 /* LS_ImagePicker.swift */; };
 		4ABA352223E7E847004751F3 /* LS_MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA352123E7E847004751F3 /* LS_MediaViewController.swift */; };
 		4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA986322927FA700DD9E26 /* AppDelegate.swift */; };
@@ -35,7 +36,6 @@
 		4ADA986E22927FAA00DD9E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA986C22927FAA00DD9E26 /* LaunchScreen.storyboard */; };
 		4ADA98782292812900DD9E26 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */; };
 		4AE3665823277D03003D6665 /* LS_GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3665723277D03003D6665 /* LS_GenericDataSource.swift */; };
-		4AE72A2A2338A85800DFDA1F /* LS_DataTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE72A292338A85800DFDA1F /* LS_DataTableViewDataSource.swift */; };
 		4AF702682306AF4400860CD3 /* LS_TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF702672306AF4400860CD3 /* LS_TableViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,8 @@
 		4A91FB022303E5AF00021B44 /* LS_DataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataTableView.swift; sourceTree = "<group>"; };
 		4A91FB062303E7F100021B44 /* LS_DataTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataTableViewModel.swift; sourceTree = "<group>"; };
 		4A91FB082303E8A900021B44 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
-		4A91FB0A2303EEFF00021B44 /* LS_DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataTableViewController.swift; sourceTree = "<group>"; };
+		4A92F16F250C65E100EC3CC1 /* LS_DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LS_DataTableViewController.swift; path = ../../../../MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataTableViewController.swift; sourceTree = "<group>"; };
+		4A92F171250C662300EC3CC1 /* LS_DataTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LS_DataTableViewDataSource.swift; path = ../../../../../MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationControllerMVVM/MissTableViewNavigationController/LS_DataTableViewDataSource.swift; sourceTree = "<group>"; };
 		4ABA351F23E7E04A004751F3 /* LS_ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_ImagePicker.swift; sourceTree = "<group>"; };
 		4ABA352123E7E847004751F3 /* LS_MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_MediaViewController.swift; sourceTree = "<group>"; };
 		4ADA986022927FA700DD9E26 /* SnowDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +71,6 @@
 		4ADA986F22927FAA00DD9E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADA98772292812900DD9E26 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
 		4AE3665723277D03003D6665 /* LS_GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_GenericDataSource.swift; sourceTree = "<group>"; };
-		4AE72A292338A85800DFDA1F /* LS_DataTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_DataTableViewDataSource.swift; sourceTree = "<group>"; };
 		4AF702672306AF4400860CD3 /* LS_TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LS_TableViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +100,7 @@
 				4AE3665723277D03003D6665 /* LS_GenericDataSource.swift */,
 				4A84649E22A4EBA1008F3F60 /* LS_Data.swift */,
 				4A29B3F222F165F000D9CB34 /* LS_DataController.swift */,
+				4A92F171250C662300EC3CC1 /* LS_DataTableViewDataSource.swift */,
 				4A1341DC23EFB2DC00AA126C /* LS_Media.swift */,
 			);
 			path = Models;
@@ -145,8 +146,7 @@
 			children = (
 				4ADA986322927FA700DD9E26 /* AppDelegate.swift */,
 				4ADA986522927FA700DD9E26 /* ViewController.swift */,
-				4A91FB0A2303EEFF00021B44 /* LS_DataTableViewController.swift */,
-				4AE72A292338A85800DFDA1F /* LS_DataTableViewDataSource.swift */,
+				4A92F16F250C65E100EC3CC1 /* LS_DataTableViewController.swift */,
 				4ADA986C22927FAA00DD9E26 /* LaunchScreen.storyboard */,
 				4A8464A022A4F4A3008F3F60 /* Models */,
 				4A91FB042303E5C600021B44 /* Views */,
@@ -245,11 +245,9 @@
 				4A1341DD23EFB2DC00AA126C /* LS_Media.swift in Sources */,
 				4A25124422DF03D20033DB42 /* ExampleTableView.swift in Sources */,
 				4A91FB072303E7F100021B44 /* LS_DataTableViewModel.swift in Sources */,
-				4A91FB0B2303EEFF00021B44 /* LS_DataTableViewController.swift in Sources */,
 				4A25124222DF00320033DB42 /* LS_DataDetailView.swift in Sources */,
 				4AF702682306AF4400860CD3 /* LS_TableViewModel.swift in Sources */,
 				4ABA352223E7E847004751F3 /* LS_MediaViewController.swift in Sources */,
-				4AE72A2A2338A85800DFDA1F /* LS_DataTableViewDataSource.swift in Sources */,
 				4A91FB092303E8A900021B44 /* Dynamic.swift in Sources */,
 				4A29B3F322F165F000D9CB34 /* LS_DataController.swift in Sources */,
 				4A1677EF23B1C84C006AE5CF /* LS_TabBarController.swift in Sources */,
@@ -260,12 +258,14 @@
 				4A58890B22E41BA80079B86F /* LS_EditDetailView.swift in Sources */,
 				4A5DCA9E230BAF5800DD0297 /* LS_Utilities.swift in Sources */,
 				4A5DCA9F230BAF5800DD0297 /* LS_Dummy.swift in Sources */,
+				4A92F170250C65E100EC3CC1 /* LS_DataTableViewController.swift in Sources */,
 				4A25124022DEFEBC0033DB42 /* LS_DataDetailViewController.swift in Sources */,
 				4ADA98782292812900DD9E26 /* ExampleTableViewController.swift in Sources */,
 				4A84D82724567FE0007A8DBF /* LS_MediaActivityViewController.swift in Sources */,
 				4A1677F123B1DE92006AE5CF /* LS_PageViewController.swift in Sources */,
 				4ADA986622927FA700DD9E26 /* ViewController.swift in Sources */,
 				4A58890922E41B690079B86F /* LS_EditDetailViewController.swift in Sources */,
+				4A92F172250C662300EC3CC1 /* LS_DataTableViewDataSource.swift in Sources */,
 				4A235E6422E59A1A00C14A76 /* LS_TableViewCell.swift in Sources */,
 				4ADA986422927FA700DD9E26 /* AppDelegate.swift in Sources */,
 				4AE3665823277D03003D6665 /* LS_GenericDataSource.swift in Sources */,
