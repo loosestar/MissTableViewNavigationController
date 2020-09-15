@@ -19,7 +19,8 @@ class LS_MediaViewController: UIViewController, UIActivityItemSource, UINavigati
     }
     
     @IBOutlet var imageView: UIImageView!
-    let delegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+//    let delegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    weak var delegate: LS_DataDetailViewController!
     
     var mediaView: LS_MediaView! = nil
     
@@ -346,7 +347,11 @@ class LS_MediaViewController: UIViewController, UIActivityItemSource, UINavigati
 //
 //        self.dismiss(animated: false, completion: nil)
         
-        let destinationDetailViewController = LS_DataDetailViewController()
+        // TODO: remember the selected image to show next time the trip's media is viewed
+        
+//        print("currentData: \(self.currentData.id), \(self.currentData.name)")
+        
+        let destinationDetailViewController = delegate!
         destinationDetailViewController.dataIndex = self.dataIndex
         destinationDetailViewController.loadData()
         destinationDetailViewController.tbController = self.tbController

@@ -17,6 +17,7 @@ import SwiftUI
 
 class LS_DataDetailViewController: UIViewController, UIActivityItemSource, UINavigationControllerDelegate, LS_BackButtonDelegate {
     weak var delegate: LS_DataTableViewController!
+//    weak var detailDelegate: LS_DataDetailViewController!
     var detailView: LS_DataDetailView!
     var allData: [LS_Data]?
     var detailData: LS_Data!

@@ -140,6 +140,8 @@ class LS_TabBarController: UITabBarController, UITabBarControllerDelegate {
 //            self.present(mediaVC, animated: true, completion: nil)
 //            self.presentingViewController?.removeFromParent()
             
+
+            media.delegate = LS_DataDetailViewController()
             media.dataIndex = self.activeIndex
             media.getPhotos()
 //            media.avController = UIActivityViewController(activityItems: media.allPhotoImages, applicationActivities: nil)
